@@ -34,7 +34,6 @@ function generatePassword() {
   if (includeNumeric) charSet += numericChars;
   if (includeSpecial) charSet += specialChars;
 
-
   var password = "";
   for (var i = 0; i < passwordLength; i++) {
     var randomIndex = Math.floor(Math.random() * charSet.length);
